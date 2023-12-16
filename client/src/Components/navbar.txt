@@ -55,3 +55,28 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+Skills
+
+
+{/* <main className='overflow-auto bg-slate-800 flex flex-col h-screen w-screen '>
+        
+        <div className=' flex flex-col items-center md:grid md:grid-cols-3 md:gap-5 md:grid-flow-row m-12'>
+            
+            <img src={java} alt="" className='h-36 w-36 m-5 trans' />
+            <img src={html} alt="" className='h-36 w-36 m-5 ' />
+            <img src={css} alt="" className='h-36 w-36 m-5 ' />
+            <img src={js} alt="" className='h-36 w-36 m-5 ' />
+            <img src={reactImg} alt="" className='h-36 w-36 m-5 ' />
+            <img src={nodeJs} alt="" className='h-36 w-36 m-5 ' />
+            <img src={exJs} alt="" className='h-36 w-36 m-5 ' />
+            <img src={mongo} alt="" className='h-36 w-36 m-5 ' />
+            <img src={tailwind} alt="" className='h-36 w-36 m-5 ' />
+            <img src={ts} alt="" className='h-36 w-36 m-5 ' />
+            <img src={git} alt="" className='h-36 w-36 m-5 ' />
+        </div>
+    </main> */}

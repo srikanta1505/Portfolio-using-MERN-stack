@@ -1,59 +1,41 @@
-import React, { useState } from "react";
-import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
+import React from "react";
+import EducationDetails from "./EducationDetails";
+// import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
 
 const Education = () => {
-  const [active, setActive] = useState(false);
+//   const [active, setActive] = useState(false);
 
-  const ActiveHandler = () => {
-    setActive(!active);
-  };
+//   const ActiveHandler = () => {
+//     setActive(!active);
+  // };
 
   return (
     <React.Fragment>
-      <main className=" bg-slate-800 pb-10 text-white">
+      <main className=" overflow-hidden bg-slate-800 pb-10 text-white">
         <div className="mx-5 text-3xl text-teal-600 font-semibold">
           Education
         </div>
+        <EducationDetails
+           value= "Post Graduation">
+            <div className="text-white text-2xl">hello world</div>
+        </EducationDetails>
 
-        <div className=" flex mt-8 mx-12 md:mx-36 h-12  bg-black items-center justify-between rounded-xl">
-          <div className="pl-10 text-xl">Post Graduation</div>
-          <button
-            onClick={ActiveHandler}
-            className=" pr-5 text-4xl text-teal-600 "
-          >
-            {active ? <CiCircleMinus /> : <CiCirclePlus />}
-          </button>
-        </div>
 
-        <div className=" flex mt-3 mx-12 md:mx-36 h-12  bg-black items-center justify-between rounded-xl ">
-          <div className="pl-10 text-xl">Graduation</div>
-          <button
-            onClick={ActiveHandler}
-            className=" pr-5 text-4xl text-teal-600 "
-          >
-            {active ? <CiCircleMinus /> : <CiCirclePlus />}
-          </button>
-        </div>
-
-        <div className=" flex mt-3 mx-12 md:mx-36 h-12  bg-black items-center justify-between rounded-xl ">
-          <div className="pl-10 text-xl">Intermediate</div>
-          <button
-            onClick={ActiveHandler}
-            className=" pr-5 text-4xl text-teal-600 "
-          >
-            {active ? <CiCircleMinus /> : <CiCirclePlus />}
-          </button>
-        </div>
-
-        <div className=" flex mt-3 mx-12 md:mx-36 h-12  bg-black items-center justify-between rounded-xl ">
-          <div className="pl-10 text-xl">Schooling</div>
-          <button
-            onClick={ActiveHandler}
-            className="pr-5 text-4xl text-teal-600 "
-          >
-            {active ? <CiCircleMinus /> : <CiCirclePlus />}
-          </button>
-        </div>
+        <EducationDetails
+           value= "Graduation">
+            <div className="text-white text-2xl">hello world</div>
+        </EducationDetails>
+        
+          
+        <EducationDetails
+           value= "InterMediate">
+            <div className="text-white text-2xl">hello world</div>
+        </EducationDetails>  
+         
+        <EducationDetails
+           value= "Schooling">
+            <div className="text-white text-2xl">hello world</div>
+        </EducationDetails>   
       </main>
     </React.Fragment>
   );

@@ -9,7 +9,7 @@ const About = () => {
             <div className='h-10 w-20 m-5 text-3xl text-teal-600 font-semibold'>
               About
             </div>      
-                <div className='text-xl m-8'>      
+                <div className='text-xl m-8 mx-12 md:mx-36'>      
                     <p>{`As a full stack developer i have good problem-solving and troubleshooting skills and proven experience as a MERN stack developer.`}</p>
                     <br />
                     <p>{`Proficiency in JavaScript, ES6+, and modern front-end, back-end technologies and state management libraries such as Redux.

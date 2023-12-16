@@ -5,24 +5,23 @@ import { MdDownload } from "react-icons/md";
 import MyImage from '../images/MyImage.png';
 import Education from "../Components/Education";
 import SocialMedia from "../Components/SocialMedia";
-import Certifications from "../Components/Certifications";
+import Certifications from "./Certifications";
 import MovingText from "../Components/MovingText";
 
 const Home = () => {
   return (
     <>
-      <main className="flex flex-col overflow-hidden">
-        <div className="bg-black h-screen w-screen"></div>
-        
-          <div className="h-full w-screen absolute pt-8">
-              <div className="text-white text-5xl flex flex-col mt-10 font-mono items-center">
+      <main className="flex flex-col overflow-hidden ">
+        <div className="bg-black h-[100vh] w-full box-border ">
+        <div className="  h-full w-full absolute pt-8 box-content ">
+              <div className="text-white text-5xl flex-col flex mt-10 font-mono items-center">
               <img src={MyImage} className='h-32 w-32 rounded-full ' alt="" />
-                <p className=" text-3xl ">Hello,</p>
+                <p className=" text-2xl mt-4 r">Hello,</p>
                 <p className=" pl-16">
-                 I'm <span className="text-teal-600  font-bold">Srikant </span>
+                 I'm <span className="text-teal-600 flex-wrap font-bold">Srikant </span>
                  <span>Nanda</span>
                  </p>
-                 <MovingText/>
+                 <MovingText />
               </div>
 
               <div className="text-white items-center mx-20 flex flex-col ">
@@ -48,9 +47,10 @@ const Home = () => {
 
                </div>
             </div>
-        <div>
-          {/* <img className="bg-slate-800 z-10"  src={Svg} alt="" /> */}
         </div>
+        
+          
+        
         
         <About />
         <Education />
