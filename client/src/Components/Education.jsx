@@ -17,24 +17,47 @@ const Education = () => {
         </div>
         <EducationDetails
            value= "Post Graduation">
-            <div className="text-white text-2xl">hello world</div>
+            <div className="m-2 text-lg p-3 text-black text-center  ">
+              
+              <p>Course : Master of Computer Application</p>
+              <p>Stream: Computer Science</p>
+              <p>Mark Secured: 8.93 CGPA (84.30%)</p>
+
+            </div>
         </EducationDetails>
 
 
         <EducationDetails
            value= "Graduation">
-            <div className="text-white text-2xl">hello world</div>
+            <div className="m-2 text-lg p-3 text-black text-center  ">
+              
+              <p>Course : Bachelor of Science</p>
+              
+              <p>Mark Secured: 8.31 CGPA (78.10%)</p>
+
+            </div>
         </EducationDetails>
         
           
         <EducationDetails
            value= "InterMediate">
-            <div className="text-white text-2xl">hello world</div>
+            <div className="m-2 text-lg p-3 text-black text-center ">
+              
+              <p>Course : Science</p>
+              <p>Stream: PCM CSc</p>
+              <p>Mark Secured: 70.50 %</p>
+
+            </div>
         </EducationDetails>  
          
         <EducationDetails
            value= "Schooling">
-            <div className="text-white text-2xl">hello world</div>
+            <div className="m-2 text-lg p-3 text-black text-center ">
+              
+              <p>Course : Schooling</p>
+              <p>Mark Secured: 75.17%</p>
+
+            </div>
         </EducationDetails>   
       </main>
     </React.Fragment>

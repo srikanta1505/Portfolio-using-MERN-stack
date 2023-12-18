@@ -17,9 +17,9 @@ const Home = () => {
               <div className="text-white text-5xl flex-col flex mt-10 font-mono items-center">
               <img src={MyImage} className='h-32 w-32 rounded-full ' alt="" />
                 <p className=" text-2xl mt-4 r">Hello,</p>
-                <p className=" pl-16">
+                <p className=" ml-20">
                  I'm <span className="text-teal-600 flex-wrap font-bold">Srikant </span>
-                 <span>Nanda</span>
+                 <span className="mr-4">Nanda</span>
                  </p>
                  <MovingText />
               </div>

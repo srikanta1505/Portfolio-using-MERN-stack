@@ -20,14 +20,14 @@ const Certifications = () => {
 
             <Certificate
                 imageURL={reactImg}
-                courseName='C for Everyone: Structured Programming'
+                courseName=' Complete Guide to Advance React'
                 platform=" Platform: Coursera"
-                CertificateLink={"https://coursera.org/share/8832f867bbbf39c0b912740c35af4120"}
+                CertificateLink={"https://coursera.org/share/3bf8bc1eb2ee6effd73cab80354f65ab"}
             /> 
 
             <Certificate
                 imageURL={node}
-                courseName='C for Everyone: Structured Programming'
+                courseName='Developing Backend with Node js and Express '
                 platform=" Platform: Coursera"
                 CertificateLink={"https://coursera.org/share/8832f867bbbf39c0b912740c35af4120"}
             /> 

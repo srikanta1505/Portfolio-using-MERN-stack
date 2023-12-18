@@ -5,7 +5,7 @@ const MovingText = () => {
 
 
   return (
-    <div className=' text-5xl m-4 mx-24 flex-wrap font-extralight text-teal-200'>
+    <div className=' text-5xl m-4 mx-20 md:mx-16  font-extralight text-teal-200'>
         <Typed 
         strings={['A Web Developer','A React Js Developer', 'A UI|Frontend Developer','A MERN Stack Developer ']}
         typeSpeed={40}       
